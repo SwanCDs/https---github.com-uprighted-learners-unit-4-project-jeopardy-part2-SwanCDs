@@ -1,0 +1,26 @@
+/* did only two catagories and scratched the part one idea of 5. Once all the questions are done then press the final round button It should unlock after a few questions are anwsered.
+But i couldnt find a way to merge the point to the final round page but u get the idea.
+
+
+
+
+
+ category: 'Gaming',
+    questions: [
+      { points: 100, question: 'What is the most popular game in the world?', answer: 'Fortnite' },
+      { points: 200, question: 'What year was Minecraft released?', answer: '2011' },
+      { points: 300, question: 'Which game is known for the term "Battle Royale"?', answer: 'Fortnite' },
+      { points: 400, question: 'What is the developer of Valorant?', answer: 'Riot Games' },
+      { points: 500, question: 'In Fortnite, what is the name of the battle bus?', answer: 'Battle Bus' }
+    ]
+  },
+  {
+    category: 'Valorant',
+    questions: [
+      { points: 100, question: 'What is the green agent name who has a wall ability?', answer: 'Viper' ,  },
+      { points: 200, question: 'In Valorant, what is the main goal of the attackers?', answer: 'Plant the Spike', },
+      { points: 300, question: 'What is the map with teleport?', answer: 'Bind' },
+      { points: 400, question: 'Which agent has a teleportation ability?', answer: 'Omen' },
+      { points: 500, question: 'Who is the most picked agent in Valorant? (Hint: White hair)', answer: 'Jett' }
+    ]
+      */

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap Play - Jeopardy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <div class="align">
+        <h1>No rounds</h1>
+        <h2>Keep switching</h2>
+    </div>
+    
+    <div id="game-board" class="game-board"></div>
+    
+    <div id="question-display" class="question-display"></div>
+    
+    <div class="inputs">
+        <input id="answer-input" class="inputs" placeholder="Enter your answer..." />
+    </div>
+    
+    <div class="buttons">
+        <button id="guess-button" type="button" disabled>Submit Answer</button>
+        <button id="pass-button" type="button" disabled>Pass Question</button>
+    </div>
+    
+    <p id="player1-score">Player 1 Score: 0</p>
+    <p id="player2-score">Player 2 Score: 0</p>
+    
+    <div class="buttons">
+        <button id="next-round-button" disabled>Go to Round 2</button>
+    </div>
+    
+</body>
+</html>

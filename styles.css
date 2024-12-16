@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Centering the main content */
+.container {
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+}
+
+/* Buttons Styling */
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Game Board Styles */
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.category {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.question {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-size: 1.1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    height: 80px;
+}
+
+.question:hover {
+    background-color: #e0e0e0;
+}
+
+.question.selected {
+    background-color: #d0d0d0;
+}
+
+/* Question/Answer Display */
+.question-display {
+    font-size: 1.5em;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #fff;
+    width: 70%;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Inputs */
+.inputs {
+    width: 70%;
+    max-width: 400px;
+    padding: 12px;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Scores */
+#player1-score, #player2-score {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#player1-score {
+    color: #4CAF50;
+}
+
+#player2-score {
+    color: #F44336;
+}
+
+/* Notification Area */
+.notification {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Final Round Button */
+#final-round-button {
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 10px 25px;
+    background-color: #FF9800;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#final-round-button:hover {
+    background-color: #FB8C00;
+}
+
+#final-round-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    .game-board {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .inputs {
+        width: 90%;
+    }
+
+    .mainbox {
+        width: 90%;
+    }
+}
